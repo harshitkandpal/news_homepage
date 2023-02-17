@@ -1,0 +1,104 @@
+
+
+.attribution {
+     font-size: 11px; text-align: center;
+     margin: 1rem;
+}
+
+/* this will target 'a' element of class 'attribution' */
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    margin: 2rem 15rem;
+}
+#section1{
+    margin-bottom: 2rem;
+}
+.navbar-brand{
+    font-size: 4rem;
+    font-family: serif;
+    font-weight: bolder;
+    line-height: 1rem;
+    
+    /* has reduced space between w & dot. */
+    word-spacing:-2rem;
+}
+.nav-link{
+    margin: 0 .9rem 0 0;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+.leftCol{
+    padding-right: 1.5rem;
+
+    /* costomize the col width */
+    width: 70%;
+}
+.rightCol{
+    text-align: left;
+    color: white;
+    background-color: black;
+    padding-left: 1.5rem;
+
+    /* costomize the col width */
+    width: 29%;
+}
+.theBright{
+    padding: 0 2.5rem 0 0;
+    font-size: 3.1rem;
+    font-weight: bolder;
+    line-height: 1;
+
+}
+.pwe{
+    padding-bottom: 1rem;
+}
+.we{
+    padding: 0 0.5rem;
+}
+.btn{
+    border-radius: 0%;
+    width: 10rem;
+}
+#section3{
+    margin: 2rem 0 ;
+}
+
+/* this will bring img adjecent to the text */
+.abc{
+    float: left;
+    width: 30%;
+    margin: 0 1rem 0 0;
+}
+p{
+    font-weight: 400;
+    color:#62686d;
+    font-size: 15px;
+
+}
+h2{
+    font-size: 26px;
+    font-weight: 900;
+    color:#62686d;
+}
+
+/* changes the color when coursor hover over the targeted element */
+.rightCol h6:hover{
+    color: #F0A04B;
+}
+.row button:hover{
+    background-color: black;
+}
+.nav-item a:hover{
+    color: #E96479;
+}
+.col-4 h6:hover{
+    color: #E96479;
+}
+.rightCol p{
+    color: white;
+}
